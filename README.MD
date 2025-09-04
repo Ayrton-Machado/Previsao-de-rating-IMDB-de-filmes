@@ -12,15 +12,12 @@
 - [X] Qual filme você recomendaria para uma pessoa que você não conhece? CONCLUSÃO
 - [X] Quais são os principais fatores que estão relacionados com alta expectativa de faturamento de um filme?
 
-### Responder as perguntas durante o EDA
-- [ ] Explique como você faria a previsão da nota do imdb a partir dos dados.
-- [ ] Quais variáveis e/ou suas transformações você utilizou e por quê? 
 
 ### Responder a Pergunta no Modelo de Previsão
-- [O] Qual tipo de problema estamos resolvendo (regressão, classificação)? 
-- [O] Qual modelo melhor se aproxima dos dados e quais seus prós e contras? 
-- [O] Qual medida de performance do modelo foi escolhida e por quê?
-- [O] Quais insights podem ser tirados com a coluna Overview?, É possível inferir o gênero do filme a partir dessa coluna?
+- [X] Qual tipo de problema estamos resolvendo (regressão, classificação)? 
+- [X] Qual medida de performance do modelo foi escolhida e por quê?
+- [X] Quais insights podem ser tirados com a coluna Overview?, É possível inferir o gênero do filme a partir dessa coluna?
+- [X] Qual modelo melhor se aproxima dos dados e quais seus prós e contras? 
 - Teste para o modelo:
 Supondo um filme com as seguintes características:
 
@@ -42,7 +39,9 @@ Supondo um filme com as seguintes características:
  }
 
 - Qual seria a nota do IMDB?
-- - Modelo deve retornar algo ~9.2
+
+### Responder as perguntas durante a Conclusão
+- [ ] Explique como você faria a previsão da nota do imdb a partir dos dados.
 
 ## Montar requirements.txt
 ### pip freeze > requirements.txt
